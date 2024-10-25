@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="We understand the problem and define the requirements of the software. Activities include gathering requirements, analyzing needs, assessing project feasibility, defining scope, and creating a project roadmap. This phase ensures that the team understands what we are building and the client's expectations"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,9 +26,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="In this phase, the software’s architecture, design, and technical specifications are created. The system design phase sets the blueprint, covering everything from UI/UX to backend architecture. After design, we start coding based on the specifications, implementing functionalities, and writing code to fulfill the requirements"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Testing and Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="In this final phase, the software undergoes testing to identify and resolve issues, ensuring it meets quality standards. Testing involves unit testing, integration testing, system testing, and sometimes beta testing with end-users. Once testing is complete, the software is deployed to a live environment."
         >
           <CanvasRevealEffect
             animationSpeed={3}
