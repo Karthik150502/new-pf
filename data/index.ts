@@ -12,6 +12,7 @@ import solana_logo from "@/app/assets/svgs/solanaLogoMark.svg"
 import prateek_deshmukh from "@/app/assets/Prateek_deshmukh.jpg"
 
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
