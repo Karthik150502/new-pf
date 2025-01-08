@@ -73,7 +73,7 @@ export const PinPerspective = ({
         <div className="absolute top-16 inset-x-0  flex justify-center">
           <a
             href={href}
-            target={"_blank"}
+            target="_blank"
             className="relative w-[45px] aspect-square p-2 text-center flex gap-x-1 justify-center items-center z-10 rounded-full bg-zinc-950  ring-1 ring-white/10"
           >
              <Play strokeWidth={1} size={25}/> 

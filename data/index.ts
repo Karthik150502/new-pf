@@ -2,11 +2,11 @@ import ai_pdf_chatting from "@/app/assets/as-saas-pdf-chatting.png"
 import saas_landing from "@/app/assets/ai-saas-landing-page.png"
 import bango_crypto_wallet from "@/app/assets/bango-ai-crypto-wallet.png"
 import doorbin_video_conferencing from "@/app/assets/video-conferencing-doorbin.png"
+import cademy_image from "@/app/assets/cademy.png"
 
 import open_ai from "@/app/assets/svgs/open_ai.svg"
 import pinecone from "@/app/assets/svgs/pinecone.svg"
-import solana_logo from "@/app/assets/svgs/solanaLogoMark.svg"
-
+import k8_logo from "@/app/assets/svgs/kubernetes_logo.png"
 
 
 import prateek_deshmukh from "@/app/assets/Prateek_deshmukh.jpg"
@@ -107,22 +107,23 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://doorbin-video-conferencing.vercel.app/",
   },
-  {
+   {
     id: 3,
+    title: "Cademy - Online Streaming Platform",
+    des: "An end-to-end Online video streaming platform, with real time whiteboard playback enabled, and video streaming application.",
+    img: cademy_image.src,
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", k8_logo.src],
+    link: "https://drive.google.com/file/d/14iLjkXdXcmqSbpA2_hMs4c0ETRvkSFYf/view?usp=sharing",
+  },
+  {
+    id: 4,
     title: "Modern AI SaaS Landing",
     des: "A modern AI Saas landing page, built using some modern frontend tools, like framer-motion, etc.,",
     img: saas_landing.src,
     iconLists: ["/re.svg","/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://docai-landing-page.vercel.app/",
   },
-  {
-    id: 4,
-    title: "Bango - Crypto Wallet",
-    des: "An in-momory stored HD Crypto wallet for Solana, with features like importing and creating wallets.",
-    img: bango_crypto_wallet.src,
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", solana_logo.src],
-    link: "https://crypto-wallet-bango.vercel.app/",
-  },
+ 
 ];
 
 export const testimonials = [
