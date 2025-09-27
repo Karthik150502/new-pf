@@ -1,6 +1,5 @@
 import ai_pdf_chatting from "@/app/assets/as-saas-pdf-chatting.png"
 import saas_landing from "@/app/assets/ai-saas-landing-page.png"
-import bango_crypto_wallet from "@/app/assets/bango-ai-crypto-wallet.png"
 import doorbin_video_conferencing from "@/app/assets/video-conferencing-doorbin.png"
 import cademy_image from "@/app/assets/cademy.png"
 
@@ -10,6 +9,7 @@ import k8_logo from "@/app/assets/svgs/kubernetes_logo.png"
 
 
 import prateek_deshmukh from "@/app/assets/Prateek_deshmukh.jpg"
+import alberto_gaucin from "@/app/assets/alberto_gaucin.jpg"
 
 export const navItems = [
   { name: "Home", link: "#home" },
@@ -136,30 +136,48 @@ export const testimonials = [
   },
    {
     quote:
-      "Collaborating with Karthik was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Karthik's enthusiasm for every facet of development truly stands out.",
-    name: "Prateek Deshmukh",
-    title: "Senior Developer - 4CE Cloud Labs",
-    img:prateek_deshmukh.src
+      `Beyond technical skills, he excels in communication, leadership, and adaptability. He have a natural ability to break down
+complex concepts into clear, actionable insights for both technical and non-technical stakeholders. He also mentored
+junior engineers, fostering an environment of learning and growth within the team.`,
+    name: "Alberto Gaucin",
+    title: "Co-Fonuder - Shopvana - albertogaucin.ag@gmail.com",
+    img:alberto_gaucin.src
 
-  },  {
-    quote:
-      "Collaborating with Karthik was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Karthik's enthusiasm for every facet of development truly stands out.",
-    name: "Prateek Deshmukh",
-    title: "Senior Developer - 4CE Cloud Labs",
-    img:prateek_deshmukh.src
-  },  {
-    quote:
-      "Collaborating with Karthik was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Karthik's enthusiasm for every facet of development truly stands out.",
-    name: "Prateek Deshmukh",
-    title: "Senior Developer - 4CE Cloud Labs",
-    img:prateek_deshmukh.src
-  },  {
+  },  
+   {
     quote:
       "Collaborating with Karthik was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Karthik's enthusiasm for every facet of development truly stands out.",
     name: "Prateek Deshmukh",
     title: "Senior Developer - 4CE Cloud Labs",
     img:prateek_deshmukh.src
   },
+   {
+    quote:
+      `Beyond technical skills, he excels in communication, leadership, and adaptability. He have a natural ability to break down
+complex concepts into clear, actionable insights for both technical and non-technical stakeholders. He also mentored
+junior engineers, fostering an environment of learning and growth within the team.`,
+    name: "Alberto Gaucin",
+    title: "Co-Fonuder - Shopvana - albertogaucin.ag@gmail.com",
+    img:alberto_gaucin.src
+
+  },  
+   {
+    quote:
+      "Collaborating with Karthik was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Karthik's enthusiasm for every facet of development truly stands out.",
+    name: "Prateek Deshmukh",
+    title: "Senior Developer - 4CE Cloud Labs",
+    img:prateek_deshmukh.src
+  },
+   {
+    quote:
+      `Beyond technical skills, he excels in communication, leadership, and adaptability. He have a natural ability to break down
+complex concepts into clear, actionable insights for both technical and non-technical stakeholders. He also mentored
+junior engineers, fostering an environment of learning and growth within the team.`,
+    name: "Alberto Gaucin",
+    title: "Co-Fonuder - Shopvana - albertogaucin.ag@gmail.com",
+    img:alberto_gaucin.src
+
+  }
 ];
 
 export const companies = [
