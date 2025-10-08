@@ -10,6 +10,8 @@ import k8_logo from "@/app/assets/svgs/kubernetes_logo.png"
 
 import prateek_deshmukh from "@/app/assets/Prateek_deshmukh.jpg"
 import alberto_gaucin from "@/app/assets/alberto_gaucin.jpg"
+import forceCloudLabsLogo from "@/app/assets/4ce Cloud Labs Logo.png"
+import shopvanaLogo from "@/app/assets/shopvana logo 2.png"
 
 export const navItems = [
   { name: "Home", link: "#home" },
@@ -219,14 +221,14 @@ export const workExperience = [
     title: "Salesforce Developer, Bangalore, Nov 2023 – July 2024",
     desc: "Salesforce Developer at 4CE Cloud Labs, Salesforce Administration, Salesforce Mobile Publisher, Experience Cloud, Apex, Salesforce LWC, Sales Cloud, Financial Services Cloud, Omniscripts",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: forceCloudLabsLogo.src,
   },
    {
     id: 2,
     title: "Shopify Developer, Remote, Jan 2025 – May 2025",
     desc: "Developed Shopify Plugins for Shopvana, built a self-hosted logging system with redis for an App. Hosted on DigitalOcean. Completely revamped an App which helped onboard 400+ users.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: shopvanaLogo.src,
   },
 ];
 
