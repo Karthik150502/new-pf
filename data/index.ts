@@ -216,8 +216,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Salesforce Developer, Bangalore Nov 2023 – July 2024",
+    title: "Salesforce Developer, Bangalore, Nov 2023 – July 2024",
     desc: "Salesforce Developer at 4CE Cloud Labs, Salesforce Administration, Salesforce Mobile Publisher, Experience Cloud, Apex, Salesforce LWC, Sales Cloud, Financial Services Cloud, Omniscripts",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+   {
+    id: 2,
+    title: "Shopify Developer, Remote, Jan 2025 – May 2025",
+    desc: "Developed Shopify Plugins for Shopvana, built a self-hosted logging system with redis for an App. Hosted on DigitalOcean. Completely revamped an App which helped onboard 400+ users.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
