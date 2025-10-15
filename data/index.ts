@@ -65,8 +65,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building Glanse",
-    description: "Menu Builer for Restaurants",
+    title: "Currently building Debate.ii",
+    description: "A Video Conferencing Application for debates, with integrated AI chatbot for fact checking.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
