@@ -2,6 +2,7 @@ import ai_pdf_chatting from "@/app/assets/as-saas-pdf-chatting.png"
 import saas_landing from "@/app/assets/ai-saas-landing-page.png"
 import doorbin_video_conferencing from "@/app/assets/video-conferencing-doorbin.png"
 import cademy_image from "@/app/assets/cademy.png"
+import interview_bot from "@/app/assets/interview-bot.png"
 
 import open_ai from "@/app/assets/svgs/open_ai.svg"
 import pinecone from "@/app/assets/svgs/pinecone.svg"
@@ -87,7 +88,7 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
+    id: 2,
     title: "AI Saas PDF Chatting",
     des: "An AI SaaS application that allows users to study any PDF document by simply asking questions about its content.",
     img: ai_pdf_chatting.src,
@@ -101,8 +102,22 @@ export const projects = [
     ],
     link: "https://docai-ai-pdf-saas.vercel.app/",
   },
+    {
+    id: 1,
+    title: "AI Interview Assistance Bot",
+    des: "An AI-powered Interview Assistant that analyzes a candidate’s resume, generates skill-based test questions, and delivers valuable performance insights to the interviewer.",
+    img: interview_bot.src,
+    iconLists: [
+      "/re.svg", 
+      "/next.svg", 
+      "/tail.svg", 
+      "/ts.svg", 
+      open_ai.src,
+    ],
+    link: "https://interview-assistance.decimalight.in/",
+  },
   {
-    id: 2,
+    id: 3,
     title: "Doorbin - Video Conferencing",
     des: "Simplify your video conferencing experience with Doorbin. Seamlessly connect with colleagues and friends. built with the Stream Video Calling SDK.",
     img: doorbin_video_conferencing.src,
@@ -110,7 +125,7 @@ export const projects = [
     link: "https://doorbin-video-conferencing.vercel.app/",
   },
    {
-    id: 3,
+    id: 4,
     title: "Cademy - Online Streaming Platform",
     des: "An end-to-end Online video streaming platform, with real time whiteboard playback enabled, and video streaming application.",
     img: cademy_image.src,
@@ -118,7 +133,7 @@ export const projects = [
     link: "https://drive.google.com/file/d/14iLjkXdXcmqSbpA2_hMs4c0ETRvkSFYf/view?usp=sharing",
   },
   {
-    id: 4,
+    id: 5,
     title: "Modern AI SaaS Landing",
     des: "A modern AI Saas landing page, built using some modern frontend tools, like framer-motion, etc.,",
     img: saas_landing.src,
